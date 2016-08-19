@@ -3,12 +3,12 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'hash_mapper/version'
 
 Gem::Specification.new do |s|
-  s.name        = %q{hash_mapper}
+  s.name        = %q{mno_hash_mapper}
   s.version     = HashMapper::VERSION
-  s.authors     = ['Ismael Celis']
+  s.authors     = ['Ismael Celis', 'Maestrano']
   s.description = %q{Tiny module that allows you to easily adapt from one hash structure to another with a simple declarative DSL.}
-  s.date        = %q{2010-09-21}
-  s.email       = %q{ismaelct@gmail.com}
+  s.date        = %q{2016-08-19}
+  s.email       = %q{developers@maestrano.com}
   
   s.files         = `git ls-files`.split("\n")
   s.homepage      = %q{http://github.com/ismasan/hash_mapper}
